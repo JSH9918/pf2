@@ -1,0 +1,79 @@
+@media screen and (max-width:760px){
+  header{
+  width: 100%;
+  left: 0;
+  }
+   header h1{
+    margin: 0 auto;
+    transform: scale(0.6);
+  }
+  header nav> :not(:last-child){
+    display: none;
+  }
+  .ham{
+    display: block;
+    transform: translateX(-20px);   
+  }
+  div#title{
+    width: 100%;
+    min-height:440px;
+    height: 100%;
+  }
+  div#title:before{
+   
+  }
+  
+  
+  main section#intro div ul{
+   row-gap: 10px;
+   flex-wrap: wrap;
+  }
+  main section#intro div ul li{
+    width: calc(100% / 2 - 10px / 2);
+    height: auto;
+  }
+  main section#intro div ul li a{
+    padding: 20px 0;
+  }
+  main section#intro div ul li a::after{
+    height: 100%;
+    box-sizing: border-box;
+  }
+  main section#intro div ul li a p{
+    
+  }
+  
+  main section#society{
+    
+  height: auto;
+  }
+  main section#society div{
+    
+  display: block;
+  background-position-x: 80%;
+  }
+  .wrap{
+    padding-left: 10px;
+    padding-right:10px;
+  }
+  /*common */
+  .padding30{
+  padding-top: calc(30px * 0.77);
+  padding-bottom: calc(30px * 0.77);
+    transition: all 1s;
+  }
+  .h1{
+    font-size: calc(50px * 0.77);
+  }
+  .h2{
+    font-size: calc(50px * 0.77);
+  }
+  .h3{
+    font-size: calc(23px * 0.77);
+  }
+  .p{
+    transform: scale(0.77);
+    top: calc(-16px * 0.77);
+    margin-bottom:calc(30px * 0.77);
+  }
+}
